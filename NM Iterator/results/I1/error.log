@@ -1,0 +1,4 @@
+**************
+*** PID 73234: ./libraries/radiance/bin/rtrace -I -h -dp 512 -ds 0.15 -dt 0.05 -dc 0.5 -dr 3 -st 0.15 -lr 8 -lw 0.002 -ab 5 -ad 512 -as 256 -ar 300 -aa 0.1 -n 6 -e error.log ./results/I1/octree.oct
+
+./libraries/radiance/bin/rtrace: fatal - (./results/I1/octree.oct): not an octree

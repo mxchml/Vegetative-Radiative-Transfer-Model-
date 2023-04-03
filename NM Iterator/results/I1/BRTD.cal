@@ -1,0 +1,3 @@
+trans_red = if (Nz, 1, 1); 
+trans_green = if (Nz, 1, 1); 
+trans_blue = if (Nz, 1, 1); 

@@ -1,0 +1,1181 @@
+wall polygon left_wall
+0 
+0 
+12 
+0.0 0.0 0.0
+0.0 13.1 0.0
+0.0 13.1 2.57
+0.0 0.0 2.57
+
+wall polygon back_wall
+0
+0
+12
+0.0 13.1 0.0
+0.0 13.1 2.57
+7.62 13.1 2.57
+7.62 13.1 0.0
+
+wall polygon right_wall
+0
+0
+12
+7.62 0.0 0.0
+7.62 13.1 0.0
+7.62 13.1 2.57
+7.62 0.0 2.57
+
+wall polygon entry_wall
+0
+0
+12
+0.0 0.0 0.0
+0.0 0.0 2.57
+7.62 0.0 2.57
+7.62 0.0 0.0
+
+wall polygon ceiling
+0
+0
+12
+0.0 0.0 2.57
+0.0 13.1 2.57
+7.62 13.1 2.57
+7.62 0.0 2.57
+
+wall polygon AHU_1_bottom
+0
+0
+12
+2.94 4.97 1.94
+2.94 6.359999999999999 1.94
+3.49 6.359999999999999 1.94
+3.49 4.97 1.94
+
+wall polygon AHU_1_top
+0
+0
+12
+2.94 4.97 2.57
+3.49 4.97 2.57
+3.49 6.359999999999999 2.57
+2.94 6.359999999999999 2.57
+
+wall polygon AHU_1_side1
+0
+0
+12
+2.94 4.97 1.94
+2.94 4.97 2.57
+2.94 6.359999999999999 2.57
+2.94 6.359999999999999 1.94
+
+wall polygon AHU_1_side2
+0
+0
+12
+2.94 6.359999999999999 1.94
+2.94 6.359999999999999 2.57
+3.49 6.359999999999999 2.57
+3.49 6.359999999999999 1.94
+
+wall polygon AHU_1_side3
+0
+0
+12
+3.49 4.97 1.94
+3.49 6.359999999999999 1.94
+3.49 6.359999999999999 2.57
+3.49 4.97 2.57
+
+wall polygon AHU_1_side4
+0
+0
+12
+2.94 4.97 1.94
+3.49 4.97 1.94
+3.49 4.97 2.57
+2.94 4.97 2.57
+
+wall polygon AHU_2_bottom
+0
+0
+12
+4.14 6.35 1.94
+4.14 8.68 1.94
+4.690 8.68 1.94
+4.690 6.35 1.94
+
+wall polygon AHU_2_top
+0
+0
+12
+4.14 6.35 2.57
+4.690 6.35 2.57
+4.690 8.68 2.57
+4.14 8.68 2.57
+
+wall polygon AHU_2_side1
+0
+0
+12
+4.14 6.35 1.94
+4.14 6.35 2.57
+4.14 8.68 2.57
+4.14 8.68 1.94
+
+wall polygon AHU_2_side2
+0
+0
+12
+4.14 8.68 1.94
+4.14 8.68 2.57
+4.690 8.68 2.57
+4.690 8.68 1.94
+
+wall polygon AHU_2_side3
+0
+0
+12
+4.690 6.35 1.94
+4.690 8.68 1.94
+4.690 8.68 2.57
+4.690 6.35 2.57
+
+wall polygon AHU_2_side4
+0
+0
+12
+4.14 6.35 1.94
+4.690 6.35 1.94
+4.690 6.35 2.57
+4.14 6.35 2.57
+
+wall polygon AHU_3_bottom
+0
+0
+12
+2.98 9.28 1.97
+2.98 9.88 1.97
+3.81 9.88 1.97
+3.81 9.28 1.97
+
+wall polygon AHU_3_top
+0
+0
+12
+2.98 9.28 2.57
+3.81 9.28 2.57
+3.81 9.88 2.57
+2.98 9.88 2.57
+
+wall polygon AHU_3_side1
+0
+0
+12
+2.98 9.28 1.97
+2.98 9.28 2.57
+2.98 9.88 2.57
+2.98 9.88 1.97
+
+wall polygon AHU_3_side2
+0
+0
+12
+2.98 9.88 1.97
+2.98 9.88 2.57
+3.81 9.88 2.57
+3.81 9.88 1.97
+
+wall polygon AHU_3_side3
+0
+0
+12
+3.81 9.28 1.97
+3.81 9.88 1.97
+3.81 9.88 2.57
+3.81 9.28 2.57
+
+wall polygon AHU_3_side4
+0
+0
+12
+2.98 9.28 1.97
+3.81 9.28 1.97
+3.81 9.28 2.57
+2.98 9.28 2.57
+
+floor polygon floor_geo
+0
+0
+12
+0 0 0
+7.62 0 0
+7.62 13.1 0
+0 13.1 0
+
+!libraries/radiance/bin/gensurf	vividgro	rect	1.076*s	0.602*t	0	2	2	|	libraries/radiance/bin/xform	-rx	180	-t	0.354	1	2.16
+!libraries/radiance/bin/gensurf	vividgro	rect	1.076*s	0.602*t	0	2	2	|	libraries/radiance/bin/xform	-rx	180	-t	0.404	2.152	2.16
+!libraries/radiance/bin/gensurf	vividgro	rect	1.076*s	0.602*t	0	2	2	|	libraries/radiance/bin/xform	-rx	180	-t	0.424	3.152	2.16
+!libraries/radiance/bin/gensurf	vividgro	rect	1.076*s	0.602*t	0	2	2	|	libraries/radiance/bin/xform	-rx	180	-t	0.444	4.252	2.16
+!libraries/radiance/bin/gensurf	vividgro	rect	1.076*s	0.602*t	0	2	2	|	libraries/radiance/bin/xform	-rx	180	-t	0.464	5.312	2.16
+!libraries/radiance/bin/gensurf	vividgro	rect	1.076*s	0.602*t	0	2	2	|	libraries/radiance/bin/xform	-rx	180	-t	0.494	6.332	2.16
+!libraries/radiance/bin/gensurf	vividgro	rect	1.076*s	0.602*t	0	2	2	|	libraries/radiance/bin/xform	-rx	180	-t	1.704	1	2.16
+!libraries/radiance/bin/gensurf	vividgro	rect	1.076*s	0.602*t	0	2	2	|	libraries/radiance/bin/xform	-rx	180	-t	1.684	2.152	2.16
+!libraries/radiance/bin/gensurf	vividgro	rect	1.076*s	0.602*t	0	2	2	|	libraries/radiance/bin/xform	-rx	180	-t	1.664	3.152	2.16
+!libraries/radiance/bin/gensurf	vividgro	rect	1.076*s	0.602*t	0	2	2	|	libraries/radiance/bin/xform	-rx	180	-t	1.674	4.252	2.16
+!libraries/radiance/bin/gensurf	vividgro	rect	1.076*s	0.602*t	0	2	2	|	libraries/radiance/bin/xform	-rx	180	-t	1.754	5.312	2.16
+!libraries/radiance/bin/gensurf	vividgro	rect	1.076*s	0.602*t	0	2	2	|	libraries/radiance/bin/xform	-rx	180	-t	1.724	6.332	2.16
+!libraries/radiance/bin/gensurf	vividgro	rect	1.076*s	0.602*t	0	2	2	|	libraries/radiance/bin/xform	-rx	180	-t	4.85	1.012	2.16
+!libraries/radiance/bin/gensurf	vividgro	rect	1.076*s	0.602*t	0	2	2	|	libraries/radiance/bin/xform	-rx	180	-t	4.87	2.092	2.16
+!libraries/radiance/bin/gensurf	vividgro	rect	1.076*s	0.602*t	0	2	2	|	libraries/radiance/bin/xform	-rx	180	-t	4.91	3.142	2.16
+!libraries/radiance/bin/gensurf	vividgro	rect	1.076*s	0.602*t	0	2	2	|	libraries/radiance/bin/xform	-rx	180	-t	4.9	4.172	2.16
+!libraries/radiance/bin/gensurf	vividgro	rect	1.076*s	0.602*t	0	2	2	|	libraries/radiance/bin/xform	-rx	180	-t	4.85	5.222	2.16
+!libraries/radiance/bin/gensurf	vividgro	rect	1.076*s	0.602*t	0	2	2	|	libraries/radiance/bin/xform	-rx	180	-t	4.92	6.272	2.16
+
+
+# Canopy Extinction
+!libraries/radiance/bin/genbox canopy_ext_r1c1 canopy1_r1c1 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.558 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c2 canopy1_r1c2 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.6386 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c3 canopy1_r1c3 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.7193 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c4 canopy1_r1c4 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.8 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c5 canopy1_r1c5 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.8806 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c6 canopy1_r1c6 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.9613 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r2c1 canopy1_r2c1 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.558 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c2 canopy1_r2c2 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.6386 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c3 canopy1_r2c3 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.7193 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c4 canopy1_r2c4 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.8 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c5 canopy1_r2c5 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.8806 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c6 canopy1_r2c6 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.9613 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r3c1 canopy1_r3c1 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.558 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c2 canopy1_r3c2 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.6386 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c3 canopy1_r3c3 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.7193 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c4 canopy1_r3c4 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.8 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c5 canopy1_r3c5 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.8806 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c6 canopy1_r3c6 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.9613 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r4c1 canopy1_r4c1 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.558 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c2 canopy1_r4c2 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.6386 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c3 canopy1_r4c3 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.7193 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c4 canopy1_r4c4 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.8 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c5 canopy1_r4c5 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.8806 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c6 canopy1_r4c6 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.9613 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r5c1 canopy1_r5c1 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.558 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c2 canopy1_r5c2 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.6386 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c3 canopy1_r5c3 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.7193 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c4 canopy1_r5c4 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.8 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c5 canopy1_r5c5 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.8806 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c6 canopy1_r5c6 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.9613 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r6c1 canopy1_r6c1 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.558 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c2 canopy1_r6c2 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.6386 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c3 canopy1_r6c3 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.7193 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c4 canopy1_r6c4 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.8 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c5 canopy1_r6c5 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.8806 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c6 canopy1_r6c6 2.746 0.0806 0.0797 | libraries/radiance/bin/xform -t  0.2 0.9613 1.5773  
+ 
+ 
+!libraries/radiance/bin/genbox canopy_ext_r1c1 canopy2_r1c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 1.511 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c2 canopy2_r1c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 1.625 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c3 canopy2_r1c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 1.7389 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c4 canopy2_r1c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 1.853 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c5 canopy2_r1c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 1.9669 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c6 canopy2_r1c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.081 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r2c1 canopy2_r2c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 1.511 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c2 canopy2_r2c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 1.625 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c3 canopy2_r2c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 1.7389 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c4 canopy2_r2c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 1.853 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c5 canopy2_r2c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 1.9669 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c6 canopy2_r2c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.081 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r3c1 canopy2_r3c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 1.511 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c2 canopy2_r3c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 1.625 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c3 canopy2_r3c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 1.7389 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c4 canopy2_r3c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 1.853 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c5 canopy2_r3c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 1.9669 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c6 canopy2_r3c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.081 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r4c1 canopy2_r4c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 1.511 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c2 canopy2_r4c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 1.625 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c3 canopy2_r4c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 1.7389 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c4 canopy2_r4c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 1.853 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c5 canopy2_r4c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 1.9669 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c6 canopy2_r4c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.081 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r5c1 canopy2_r5c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 1.511 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c2 canopy2_r5c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 1.625 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c3 canopy2_r5c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 1.7389 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c4 canopy2_r5c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 1.853 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c5 canopy2_r5c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 1.9669 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c6 canopy2_r5c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.081 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r6c1 canopy2_r6c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 1.511 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c2 canopy2_r6c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 1.625 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c3 canopy2_r6c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 1.7389 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c4 canopy2_r6c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 1.853 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c5 canopy2_r6c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 1.9669 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c6 canopy2_r6c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.081 1.5773  
+ 
+ 
+ 
+!libraries/radiance/bin/genbox canopy_ext_r1c1 canopy3_r1c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.512 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c2 canopy3_r1c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.626 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c3 canopy3_r1c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.74 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c4 canopy3_r1c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.854 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c5 canopy3_r1c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.968 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c6 canopy3_r1c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 3.082 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r2c1 canopy3_r2c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.512 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c2 canopy3_r2c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.626 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c3 canopy3_r2c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.74 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c4 canopy3_r2c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.854 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c5 canopy3_r2c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.968 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c6 canopy3_r2c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 3.082 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r3c1 canopy3_r3c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.512 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c2 canopy3_r3c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.626 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c3 canopy3_r3c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.74 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c4 canopy3_r3c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.854 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c5 canopy3_r3c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.968 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c6 canopy3_r3c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 3.082 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r4c1 canopy3_r4c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.512 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c2 canopy3_r4c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.626 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c3 canopy3_r4c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.74 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c4 canopy3_r4c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.854 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c5 canopy3_r4c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.968 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c6 canopy3_r4c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 3.082 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r5c1 canopy3_r5c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.512 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c2 canopy3_r5c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.626 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c3 canopy3_r5c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.74 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c4 canopy3_r5c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.854 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c5 canopy3_r5c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.968 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c6 canopy3_r5c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 3.082 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r6c1 canopy3_r6c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.512 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c2 canopy3_r6c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.626 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c3 canopy3_r6c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.74 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c4 canopy3_r6c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.854 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c5 canopy3_r6c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 2.968 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c6 canopy3_r6c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 3.082 1.5773  
+ 
+ 
+ 
+!libraries/radiance/bin/genbox canopy_ext_r1c1 canopy4_r1c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 3.618 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c2 canopy4_r1c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 3.7319 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c3 canopy4_r1c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 3.846 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c4 canopy4_r1c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 3.96 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c5 canopy4_r1c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 4.074 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c6 canopy4_r1c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 4.188 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r2c1 canopy4_r2c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 3.618 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c2 canopy4_r2c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 3.7319 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c3 canopy4_r2c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 3.846 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c4 canopy4_r2c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 3.96 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c5 canopy4_r2c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 4.074 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c6 canopy4_r2c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 4.188 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r3c1 canopy4_r3c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 3.618 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c2 canopy4_r3c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 3.7319 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c3 canopy4_r3c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 3.846 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c4 canopy4_r3c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 3.96 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c5 canopy4_r3c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 4.074 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c6 canopy4_r3c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 4.188 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r4c1 canopy4_r4c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 3.618 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c2 canopy4_r4c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 3.7319 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c3 canopy4_r4c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 3.846 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c4 canopy4_r4c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 3.96 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c5 canopy4_r4c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 4.074 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c6 canopy4_r4c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 4.188 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r5c1 canopy4_r5c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 3.618 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c2 canopy4_r5c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 3.7319 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c3 canopy4_r5c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 3.846 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c4 canopy4_r5c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 3.96 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c5 canopy4_r5c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 4.074 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c6 canopy4_r5c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 4.188 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r6c1 canopy4_r6c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 3.618 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c2 canopy4_r6c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 3.7319 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c3 canopy4_r6c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 3.846 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c4 canopy4_r6c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 3.96 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c5 canopy4_r6c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 4.074 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c6 canopy4_r6c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 4.188 1.5773  
+ 
+ 
+ 
+!libraries/radiance/bin/genbox canopy_ext_r1c1 canopy5_r1c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 4.6670 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c2 canopy5_r1c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 4.7810 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c3 canopy5_r1c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 4.8950 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c4 canopy5_r1c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.009 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c5 canopy5_r1c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.1230 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c6 canopy5_r1c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.2370 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r2c1 canopy5_r2c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 4.6670 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c2 canopy5_r2c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 4.7810 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c3 canopy5_r2c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 4.8950 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c4 canopy5_r2c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.009 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c5 canopy5_r2c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.1230 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c6 canopy5_r2c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.2370 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r3c1 canopy5_r3c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 4.6670 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c2 canopy5_r3c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 4.7810 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c3 canopy5_r3c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 4.8950 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c4 canopy5_r3c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.009 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c5 canopy5_r3c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.1230 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c6 canopy5_r3c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.2370 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r4c1 canopy5_r4c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 4.6670 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c2 canopy5_r4c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 4.7810 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c3 canopy5_r4c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 4.8950 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c4 canopy5_r4c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.009 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c5 canopy5_r4c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.1230 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c6 canopy5_r4c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.2370 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r5c1 canopy5_r5c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 4.6670 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c2 canopy5_r5c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 4.7810 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c3 canopy5_r5c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 4.8950 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c4 canopy5_r5c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.009 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c5 canopy5_r5c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.1230 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c6 canopy5_r5c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.2370 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r6c1 canopy5_r6c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 4.6670 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c2 canopy5_r6c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 4.7810 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c3 canopy5_r6c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 4.8950 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c4 canopy5_r6c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.009 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c5 canopy5_r6c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.1230 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c6 canopy5_r6c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.2370 1.5773  
+ 
+ 
+ 
+!libraries/radiance/bin/genbox canopy_ext_r1c1 canopy6_r1c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.6930 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c2 canopy6_r1c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.807 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c3 canopy6_r1c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.921 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c4 canopy6_r1c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 6.035 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c5 canopy6_r1c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 6.1490 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c6 canopy6_r1c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 6.2630 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r2c1 canopy6_r2c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.6930 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c2 canopy6_r2c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.807 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c3 canopy6_r2c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.921 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c4 canopy6_r2c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 6.035 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c5 canopy6_r2c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 6.1490 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c6 canopy6_r2c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 6.2630 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r3c1 canopy6_r3c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.6930 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c2 canopy6_r3c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.807 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c3 canopy6_r3c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.921 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c4 canopy6_r3c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 6.035 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c5 canopy6_r3c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 6.1490 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c6 canopy6_r3c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 6.2630 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r4c1 canopy6_r4c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.6930 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c2 canopy6_r4c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.807 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c3 canopy6_r4c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.921 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c4 canopy6_r4c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 6.035 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c5 canopy6_r4c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 6.1490 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c6 canopy6_r4c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 6.2630 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r5c1 canopy6_r5c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.6930 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c2 canopy6_r5c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.807 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c3 canopy6_r5c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.921 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c4 canopy6_r5c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 6.035 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c5 canopy6_r5c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 6.1490 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c6 canopy6_r5c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 6.2630 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r6c1 canopy6_r6c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.6930 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c2 canopy6_r6c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.807 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c3 canopy6_r6c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 5.921 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c4 canopy6_r6c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 6.035 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c5 canopy6_r6c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 6.1490 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c6 canopy6_r6c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 6.2630 1.5773  
+ 
+ 
+ 
+!libraries/radiance/bin/genbox canopy_ext_r1c1 canopy7_r1c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 6.78 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c2 canopy7_r1c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 6.894 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c3 canopy7_r1c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 7.008 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c4 canopy7_r1c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 7.122 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c5 canopy7_r1c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 7.2360 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c6 canopy7_r1c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 7.3500 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r2c1 canopy7_r2c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 6.78 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c2 canopy7_r2c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 6.894 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c3 canopy7_r2c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 7.008 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c4 canopy7_r2c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 7.122 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c5 canopy7_r2c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 7.2360 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c6 canopy7_r2c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 7.3500 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r3c1 canopy7_r3c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 6.78 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c2 canopy7_r3c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 6.894 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c3 canopy7_r3c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 7.008 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c4 canopy7_r3c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 7.122 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c5 canopy7_r3c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 7.2360 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c6 canopy7_r3c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 7.3500 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r4c1 canopy7_r4c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 6.78 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c2 canopy7_r4c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 6.894 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c3 canopy7_r4c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 7.008 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c4 canopy7_r4c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 7.122 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c5 canopy7_r4c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 7.2360 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c6 canopy7_r4c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 7.3500 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r5c1 canopy7_r5c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 6.78 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c2 canopy7_r5c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 6.894 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c3 canopy7_r5c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 7.008 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c4 canopy7_r5c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 7.122 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c5 canopy7_r5c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 7.2360 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c6 canopy7_r5c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 7.3500 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r6c1 canopy7_r6c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 6.78 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c2 canopy7_r6c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 6.894 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c3 canopy7_r6c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 7.008 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c4 canopy7_r6c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 7.122 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c5 canopy7_r6c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 7.2360 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c6 canopy7_r6c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 7.3500 1.5773  
+ 
+ 
+ 
+!libraries/radiance/bin/genbox canopy_ext_r1c1 canopy8_r1c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 7.89 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c2 canopy8_r1c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.004 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c3 canopy8_r1c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.118 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c4 canopy8_r1c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.232 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c5 canopy8_r1c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.346 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c6 canopy8_r1c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.4599 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r2c1 canopy8_r2c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 7.89 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c2 canopy8_r2c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.004 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c3 canopy8_r2c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.118 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c4 canopy8_r2c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.232 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c5 canopy8_r2c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.346 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c6 canopy8_r2c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.4599 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r3c1 canopy8_r3c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 7.89 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c2 canopy8_r3c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.004 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c3 canopy8_r3c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.118 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c4 canopy8_r3c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.232 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c5 canopy8_r3c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.346 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c6 canopy8_r3c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.4599 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r4c1 canopy8_r4c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 7.89 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c2 canopy8_r4c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.004 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c3 canopy8_r4c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.118 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c4 canopy8_r4c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.232 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c5 canopy8_r4c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.346 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c6 canopy8_r4c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.4599 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r5c1 canopy8_r5c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 7.89 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c2 canopy8_r5c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.004 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c3 canopy8_r5c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.118 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c4 canopy8_r5c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.232 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c5 canopy8_r5c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.346 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c6 canopy8_r5c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.4599 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r6c1 canopy8_r6c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 7.89 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c2 canopy8_r6c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.004 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c3 canopy8_r6c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.118 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c4 canopy8_r6c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.232 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c5 canopy8_r6c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.346 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c6 canopy8_r6c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.4599 1.5773  
+ 
+ 
+ 
+!libraries/radiance/bin/genbox canopy_ext_r1c1 canopy9_r1c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.806 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c2 canopy9_r1c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.92 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c3 canopy9_r1c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 9.0339 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c4 canopy9_r1c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 9.148 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c5 canopy9_r1c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 9.2619 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c6 canopy9_r1c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 9.376 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r2c1 canopy9_r2c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.806 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c2 canopy9_r2c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.92 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c3 canopy9_r2c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 9.0339 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c4 canopy9_r2c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 9.148 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c5 canopy9_r2c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 9.2619 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c6 canopy9_r2c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 9.376 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r3c1 canopy9_r3c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.806 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c2 canopy9_r3c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.92 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c3 canopy9_r3c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 9.0339 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c4 canopy9_r3c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 9.148 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c5 canopy9_r3c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 9.2619 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c6 canopy9_r3c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 9.376 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r4c1 canopy9_r4c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.806 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c2 canopy9_r4c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.92 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c3 canopy9_r4c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 9.0339 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c4 canopy9_r4c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 9.148 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c5 canopy9_r4c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 9.2619 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c6 canopy9_r4c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 9.376 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r5c1 canopy9_r5c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.806 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c2 canopy9_r5c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.92 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c3 canopy9_r5c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 9.0339 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c4 canopy9_r5c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 9.148 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c5 canopy9_r5c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 9.2619 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c6 canopy9_r5c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 9.376 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r6c1 canopy9_r6c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.806 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c2 canopy9_r6c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 8.92 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c3 canopy9_r6c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 9.0339 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c4 canopy9_r6c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 9.148 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c5 canopy9_r6c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 9.2619 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c6 canopy9_r6c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 9.376 1.5773  
+ 
+ 
+ 
+!libraries/radiance/bin/genbox canopy_ext_r1c1 canopy10_r1c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 9.8929 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c2 canopy10_r1c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.007 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c3 canopy10_r1c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.120 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c4 canopy10_r1c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.235 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c5 canopy10_r1c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.348 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c6 canopy10_r1c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.463 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r2c1 canopy10_r2c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 9.8929 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c2 canopy10_r2c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.007 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c3 canopy10_r2c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.120 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c4 canopy10_r2c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.235 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c5 canopy10_r2c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.348 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c6 canopy10_r2c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.463 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r3c1 canopy10_r3c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 9.8929 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c2 canopy10_r3c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.007 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c3 canopy10_r3c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.120 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c4 canopy10_r3c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.235 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c5 canopy10_r3c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.348 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c6 canopy10_r3c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.463 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r4c1 canopy10_r4c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 9.8929 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c2 canopy10_r4c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.007 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c3 canopy10_r4c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.120 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c4 canopy10_r4c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.235 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c5 canopy10_r4c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.348 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c6 canopy10_r4c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.463 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r5c1 canopy10_r5c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 9.8929 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c2 canopy10_r5c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.007 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c3 canopy10_r5c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.120 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c4 canopy10_r5c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.235 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c5 canopy10_r5c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.348 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c6 canopy10_r5c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.463 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r6c1 canopy10_r6c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 9.8929 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c2 canopy10_r6c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.007 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c3 canopy10_r6c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.120 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c4 canopy10_r6c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.235 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c5 canopy10_r6c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.348 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c6 canopy10_r6c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.463 1.5773  
+ 
+ 
+ 
+!libraries/radiance/bin/genbox canopy_ext_r1c1 canopy11_r1c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.974 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c2 canopy11_r1c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.088 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c3 canopy11_r1c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.202 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c4 canopy11_r1c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.316 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c5 canopy11_r1c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.43 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c6 canopy11_r1c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.544 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r2c1 canopy11_r2c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.974 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c2 canopy11_r2c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.088 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c3 canopy11_r2c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.202 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c4 canopy11_r2c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.316 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c5 canopy11_r2c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.43 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c6 canopy11_r2c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.544 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r3c1 canopy11_r3c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.974 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c2 canopy11_r3c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.088 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c3 canopy11_r3c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.202 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c4 canopy11_r3c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.316 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c5 canopy11_r3c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.43 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c6 canopy11_r3c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.544 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r4c1 canopy11_r4c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.974 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c2 canopy11_r4c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.088 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c3 canopy11_r4c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.202 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c4 canopy11_r4c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.316 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c5 canopy11_r4c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.43 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c6 canopy11_r4c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.544 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r5c1 canopy11_r5c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.974 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c2 canopy11_r5c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.088 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c3 canopy11_r5c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.202 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c4 canopy11_r5c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.316 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c5 canopy11_r5c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.43 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c6 canopy11_r5c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.544 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r6c1 canopy11_r6c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 10.974 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c2 canopy11_r6c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.088 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c3 canopy11_r6c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.202 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c4 canopy11_r6c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.316 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c5 canopy11_r6c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.43 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c6 canopy11_r6c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.544 1.5773  
+ 
+ 
+ 
+!libraries/radiance/bin/genbox canopy_ext_r1c1 canopy12_r1c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.934 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c2 canopy12_r1c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 12.049 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c3 canopy12_r1c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 12.162 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c4 canopy12_r1c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 12.277 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c5 canopy12_r1c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 12.390 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c6 canopy12_r1c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 12.504 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r2c1 canopy12_r2c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.934 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c2 canopy12_r2c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 12.049 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c3 canopy12_r2c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 12.162 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c4 canopy12_r2c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 12.277 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c5 canopy12_r2c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 12.390 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c6 canopy12_r2c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 12.504 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r3c1 canopy12_r3c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.934 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c2 canopy12_r3c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 12.049 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c3 canopy12_r3c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 12.162 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c4 canopy12_r3c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 12.277 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c5 canopy12_r3c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 12.390 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c6 canopy12_r3c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 12.504 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r4c1 canopy12_r4c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.934 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c2 canopy12_r4c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 12.049 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c3 canopy12_r4c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 12.162 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c4 canopy12_r4c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 12.277 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c5 canopy12_r4c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 12.390 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c6 canopy12_r4c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 12.504 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r5c1 canopy12_r5c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.934 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c2 canopy12_r5c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 12.049 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c3 canopy12_r5c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 12.162 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c4 canopy12_r5c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 12.277 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c5 canopy12_r5c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 12.390 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c6 canopy12_r5c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 12.504 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r6c1 canopy12_r6c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 11.934 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c2 canopy12_r6c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 12.049 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c3 canopy12_r6c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 12.162 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c4 canopy12_r6c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 12.277 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c5 canopy12_r6c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 12.390 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c6 canopy12_r6c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  0.2 12.504 1.5773  
+ 
+ 
+ 
+!libraries/radiance/bin/genbox canopy_ext_r1c1 canopy13_r1c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.3769 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c2 canopy13_r1c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.4909 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c3 canopy13_r1c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.605 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c4 canopy13_r1c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.719 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c5 canopy13_r1c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.833 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c6 canopy13_r1c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.9470 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r2c1 canopy13_r2c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.3769 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c2 canopy13_r2c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.4909 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c3 canopy13_r2c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.605 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c4 canopy13_r2c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.719 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c5 canopy13_r2c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.833 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c6 canopy13_r2c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.9470 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r3c1 canopy13_r3c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.3769 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c2 canopy13_r3c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.4909 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c3 canopy13_r3c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.605 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c4 canopy13_r3c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.719 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c5 canopy13_r3c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.833 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c6 canopy13_r3c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.9470 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r4c1 canopy13_r4c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.3769 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c2 canopy13_r4c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.4909 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c3 canopy13_r4c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.605 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c4 canopy13_r4c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.719 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c5 canopy13_r4c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.833 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c6 canopy13_r4c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.9470 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r5c1 canopy13_r5c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.3769 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c2 canopy13_r5c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.4909 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c3 canopy13_r5c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.605 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c4 canopy13_r5c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.719 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c5 canopy13_r5c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.833 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c6 canopy13_r5c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.9470 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r6c1 canopy13_r6c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.3769 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c2 canopy13_r6c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.4909 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c3 canopy13_r6c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.605 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c4 canopy13_r6c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.719 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c5 canopy13_r6c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.833 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c6 canopy13_r6c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 0.9470 1.5773  
+ 
+ 
+ 
+!libraries/radiance/bin/genbox canopy_ext_r1c1 canopy14_r1c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 1.4509 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c2 canopy14_r1c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 1.565 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c3 canopy14_r1c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 1.6789 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c4 canopy14_r1c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 1.793 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c5 canopy14_r1c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 1.9069 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c6 canopy14_r1c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.021 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r2c1 canopy14_r2c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 1.4509 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c2 canopy14_r2c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 1.565 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c3 canopy14_r2c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 1.6789 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c4 canopy14_r2c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 1.793 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c5 canopy14_r2c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 1.9069 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c6 canopy14_r2c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.021 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r3c1 canopy14_r3c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 1.4509 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c2 canopy14_r3c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 1.565 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c3 canopy14_r3c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 1.6789 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c4 canopy14_r3c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 1.793 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c5 canopy14_r3c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 1.9069 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c6 canopy14_r3c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.021 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r4c1 canopy14_r4c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 1.4509 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c2 canopy14_r4c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 1.565 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c3 canopy14_r4c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 1.6789 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c4 canopy14_r4c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 1.793 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c5 canopy14_r4c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 1.9069 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c6 canopy14_r4c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.021 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r5c1 canopy14_r5c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 1.4509 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c2 canopy14_r5c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 1.565 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c3 canopy14_r5c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 1.6789 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c4 canopy14_r5c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 1.793 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c5 canopy14_r5c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 1.9069 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c6 canopy14_r5c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.021 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r6c1 canopy14_r6c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 1.4509 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c2 canopy14_r6c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 1.565 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c3 canopy14_r6c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 1.6789 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c4 canopy14_r6c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 1.793 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c5 canopy14_r6c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 1.9069 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c6 canopy14_r6c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.021 1.5773  
+ 
+ 
+ 
+!libraries/radiance/bin/genbox canopy_ext_r1c1 canopy15_r1c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.508 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c2 canopy15_r1c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.622 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c3 canopy15_r1c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.736 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c4 canopy15_r1c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.85 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c5 canopy15_r1c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.964 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c6 canopy15_r1c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.0780 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r2c1 canopy15_r2c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.508 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c2 canopy15_r2c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.622 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c3 canopy15_r2c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.736 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c4 canopy15_r2c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.85 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c5 canopy15_r2c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.964 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c6 canopy15_r2c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.0780 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r3c1 canopy15_r3c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.508 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c2 canopy15_r3c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.622 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c3 canopy15_r3c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.736 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c4 canopy15_r3c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.85 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c5 canopy15_r3c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.964 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c6 canopy15_r3c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.0780 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r4c1 canopy15_r4c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.508 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c2 canopy15_r4c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.622 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c3 canopy15_r4c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.736 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c4 canopy15_r4c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.85 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c5 canopy15_r4c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.964 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c6 canopy15_r4c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.0780 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r5c1 canopy15_r5c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.508 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c2 canopy15_r5c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.622 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c3 canopy15_r5c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.736 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c4 canopy15_r5c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.85 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c5 canopy15_r5c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.964 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c6 canopy15_r5c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.0780 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r6c1 canopy15_r6c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.508 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c2 canopy15_r6c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.622 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c3 canopy15_r6c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.736 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c4 canopy15_r6c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.85 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c5 canopy15_r6c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 2.964 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c6 canopy15_r6c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.0780 1.5773  
+ 
+ 
+ 
+!libraries/radiance/bin/genbox canopy_ext_r1c1 canopy16_r1c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.542 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c2 canopy16_r1c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.6559 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c3 canopy16_r1c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.77 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c4 canopy16_r1c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.884 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c5 canopy16_r1c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.9979 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c6 canopy16_r1c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 4.112 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r2c1 canopy16_r2c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.542 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c2 canopy16_r2c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.6559 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c3 canopy16_r2c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.77 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c4 canopy16_r2c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.884 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c5 canopy16_r2c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.9979 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c6 canopy16_r2c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 4.112 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r3c1 canopy16_r3c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.542 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c2 canopy16_r3c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.6559 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c3 canopy16_r3c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.77 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c4 canopy16_r3c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.884 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c5 canopy16_r3c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.9979 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c6 canopy16_r3c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 4.112 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r4c1 canopy16_r4c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.542 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c2 canopy16_r4c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.6559 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c3 canopy16_r4c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.77 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c4 canopy16_r4c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.884 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c5 canopy16_r4c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.9979 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c6 canopy16_r4c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 4.112 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r5c1 canopy16_r5c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.542 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c2 canopy16_r5c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.6559 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c3 canopy16_r5c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.77 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c4 canopy16_r5c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.884 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c5 canopy16_r5c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.9979 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c6 canopy16_r5c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 4.112 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r6c1 canopy16_r6c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.542 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c2 canopy16_r6c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.6559 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c3 canopy16_r6c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.77 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c4 canopy16_r6c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.884 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c5 canopy16_r6c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 3.9979 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c6 canopy16_r6c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 4.112 1.5773  
+ 
+ 
+ 
+!libraries/radiance/bin/genbox canopy_ext_r1c1 canopy17_r1c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 4.583 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c2 canopy17_r1c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 4.697 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c3 canopy17_r1c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 4.811 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c4 canopy17_r1c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 4.925 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c5 canopy17_r1c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.0390 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c6 canopy17_r1c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.1530 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r2c1 canopy17_r2c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 4.583 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c2 canopy17_r2c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 4.697 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c3 canopy17_r2c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 4.811 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c4 canopy17_r2c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 4.925 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c5 canopy17_r2c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.0390 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c6 canopy17_r2c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.1530 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r3c1 canopy17_r3c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 4.583 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c2 canopy17_r3c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 4.697 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c3 canopy17_r3c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 4.811 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c4 canopy17_r3c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 4.925 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c5 canopy17_r3c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.0390 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c6 canopy17_r3c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.1530 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r4c1 canopy17_r4c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 4.583 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c2 canopy17_r4c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 4.697 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c3 canopy17_r4c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 4.811 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c4 canopy17_r4c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 4.925 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c5 canopy17_r4c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.0390 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c6 canopy17_r4c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.1530 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r5c1 canopy17_r5c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 4.583 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c2 canopy17_r5c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 4.697 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c3 canopy17_r5c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 4.811 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c4 canopy17_r5c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 4.925 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c5 canopy17_r5c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.0390 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c6 canopy17_r5c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.1530 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r6c1 canopy17_r6c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 4.583 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c2 canopy17_r6c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 4.697 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c3 canopy17_r6c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 4.811 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c4 canopy17_r6c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 4.925 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c5 canopy17_r6c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.0390 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c6 canopy17_r6c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.1530 1.5773  
+ 
+ 
+ 
+!libraries/radiance/bin/genbox canopy_ext_r1c1 canopy18_r1c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.633 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c2 canopy18_r1c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.747 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c3 canopy18_r1c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.861 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c4 canopy18_r1c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.975 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c5 canopy18_r1c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 6.089 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c6 canopy18_r1c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 6.203 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r2c1 canopy18_r2c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.633 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c2 canopy18_r2c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.747 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c3 canopy18_r2c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.861 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c4 canopy18_r2c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.975 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c5 canopy18_r2c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 6.089 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c6 canopy18_r2c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 6.203 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r3c1 canopy18_r3c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.633 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c2 canopy18_r3c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.747 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c3 canopy18_r3c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.861 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c4 canopy18_r3c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.975 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c5 canopy18_r3c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 6.089 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c6 canopy18_r3c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 6.203 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r4c1 canopy18_r4c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.633 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c2 canopy18_r4c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.747 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c3 canopy18_r4c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.861 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c4 canopy18_r4c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.975 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c5 canopy18_r4c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 6.089 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c6 canopy18_r4c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 6.203 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r5c1 canopy18_r5c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.633 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c2 canopy18_r5c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.747 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c3 canopy18_r5c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.861 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c4 canopy18_r5c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.975 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c5 canopy18_r5c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 6.089 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c6 canopy18_r5c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 6.203 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r6c1 canopy18_r6c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.633 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c2 canopy18_r6c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.747 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c3 canopy18_r6c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.861 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c4 canopy18_r6c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 5.975 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c5 canopy18_r6c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 6.089 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c6 canopy18_r6c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 6.203 1.5773  
+ 
+ 
+ 
+!libraries/radiance/bin/genbox canopy_ext_r1c1 canopy19_r1c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 6.7440 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c2 canopy19_r1c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 6.8580 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c3 canopy19_r1c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 6.972 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c4 canopy19_r1c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 7.086 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c5 canopy19_r1c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 7.2000 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c6 canopy19_r1c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 7.3140 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r2c1 canopy19_r2c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 6.7440 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c2 canopy19_r2c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 6.8580 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c3 canopy19_r2c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 6.972 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c4 canopy19_r2c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 7.086 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c5 canopy19_r2c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 7.2000 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c6 canopy19_r2c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 7.3140 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r3c1 canopy19_r3c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 6.7440 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c2 canopy19_r3c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 6.8580 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c3 canopy19_r3c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 6.972 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c4 canopy19_r3c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 7.086 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c5 canopy19_r3c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 7.2000 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c6 canopy19_r3c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 7.3140 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r4c1 canopy19_r4c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 6.7440 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c2 canopy19_r4c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 6.8580 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c3 canopy19_r4c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 6.972 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c4 canopy19_r4c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 7.086 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c5 canopy19_r4c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 7.2000 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c6 canopy19_r4c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 7.3140 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r5c1 canopy19_r5c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 6.7440 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c2 canopy19_r5c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 6.8580 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c3 canopy19_r5c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 6.972 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c4 canopy19_r5c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 7.086 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c5 canopy19_r5c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 7.2000 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c6 canopy19_r5c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 7.3140 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r6c1 canopy19_r6c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 6.7440 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c2 canopy19_r6c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 6.8580 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c3 canopy19_r6c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 6.972 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c4 canopy19_r6c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 7.086 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c5 canopy19_r6c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 7.2000 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c6 canopy19_r6c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 7.3140 1.5773  
+ 
+ 
+ 
+!libraries/radiance/bin/genbox canopy_ext_r1c1 canopy20_r1c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 7.8460 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c2 canopy20_r1c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 7.9600 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c3 canopy20_r1c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 8.0740 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c4 canopy20_r1c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 8.188 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c5 canopy20_r1c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 8.3020 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c6 canopy20_r1c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 8.416 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r2c1 canopy20_r2c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 7.8460 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c2 canopy20_r2c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 7.9600 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c3 canopy20_r2c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 8.0740 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c4 canopy20_r2c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 8.188 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c5 canopy20_r2c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 8.3020 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c6 canopy20_r2c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 8.416 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r3c1 canopy20_r3c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 7.8460 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c2 canopy20_r3c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 7.9600 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c3 canopy20_r3c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 8.0740 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c4 canopy20_r3c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 8.188 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c5 canopy20_r3c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 8.3020 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c6 canopy20_r3c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 8.416 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r4c1 canopy20_r4c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 7.8460 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c2 canopy20_r4c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 7.9600 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c3 canopy20_r4c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 8.0740 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c4 canopy20_r4c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 8.188 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c5 canopy20_r4c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 8.3020 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c6 canopy20_r4c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 8.416 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r5c1 canopy20_r5c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 7.8460 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c2 canopy20_r5c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 7.9600 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c3 canopy20_r5c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 8.0740 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c4 canopy20_r5c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 8.188 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c5 canopy20_r5c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 8.3020 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c6 canopy20_r5c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 8.416 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r6c1 canopy20_r6c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 7.8460 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c2 canopy20_r6c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 7.9600 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c3 canopy20_r6c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 8.0740 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c4 canopy20_r6c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 8.188 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c5 canopy20_r6c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 8.3020 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c6 canopy20_r6c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 8.416 1.5773  
+ 
+ 
+ 
+!libraries/radiance/bin/genbox canopy_ext_r1c1 canopy21_r1c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 8.898 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c2 canopy21_r1c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 9.012 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c3 canopy21_r1c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 9.126 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c4 canopy21_r1c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 9.24 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c5 canopy21_r1c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 9.354 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c6 canopy21_r1c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 9.468 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r2c1 canopy21_r2c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 8.898 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c2 canopy21_r2c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 9.012 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c3 canopy21_r2c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 9.126 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c4 canopy21_r2c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 9.24 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c5 canopy21_r2c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 9.354 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c6 canopy21_r2c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 9.468 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r3c1 canopy21_r3c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 8.898 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c2 canopy21_r3c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 9.012 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c3 canopy21_r3c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 9.126 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c4 canopy21_r3c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 9.24 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c5 canopy21_r3c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 9.354 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c6 canopy21_r3c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 9.468 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r4c1 canopy21_r4c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 8.898 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c2 canopy21_r4c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 9.012 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c3 canopy21_r4c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 9.126 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c4 canopy21_r4c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 9.24 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c5 canopy21_r4c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 9.354 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c6 canopy21_r4c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 9.468 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r5c1 canopy21_r5c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 8.898 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c2 canopy21_r5c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 9.012 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c3 canopy21_r5c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 9.126 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c4 canopy21_r5c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 9.24 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c5 canopy21_r5c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 9.354 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c6 canopy21_r5c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 9.468 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r6c1 canopy21_r6c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 8.898 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c2 canopy21_r6c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 9.012 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c3 canopy21_r6c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 9.126 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c4 canopy21_r6c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 9.24 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c5 canopy21_r6c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 9.354 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c6 canopy21_r6c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 9.468 1.5773  
+ 
+ 
+ 
+!libraries/radiance/bin/genbox canopy_ext_r1c1 canopy22_r1c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.013 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c2 canopy22_r1c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.127 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c3 canopy22_r1c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.241 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c4 canopy22_r1c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.355 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c5 canopy22_r1c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.469 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c6 canopy22_r1c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.583 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r2c1 canopy22_r2c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.013 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c2 canopy22_r2c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.127 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c3 canopy22_r2c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.241 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c4 canopy22_r2c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.355 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c5 canopy22_r2c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.469 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c6 canopy22_r2c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.583 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r3c1 canopy22_r3c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.013 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c2 canopy22_r3c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.127 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c3 canopy22_r3c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.241 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c4 canopy22_r3c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.355 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c5 canopy22_r3c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.469 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c6 canopy22_r3c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.583 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r4c1 canopy22_r4c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.013 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c2 canopy22_r4c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.127 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c3 canopy22_r4c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.241 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c4 canopy22_r4c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.355 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c5 canopy22_r4c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.469 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c6 canopy22_r4c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.583 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r5c1 canopy22_r5c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.013 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c2 canopy22_r5c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.127 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c3 canopy22_r5c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.241 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c4 canopy22_r5c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.355 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c5 canopy22_r5c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.469 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c6 canopy22_r5c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.583 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r6c1 canopy22_r6c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.013 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c2 canopy22_r6c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.127 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c3 canopy22_r6c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.241 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c4 canopy22_r6c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.355 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c5 canopy22_r6c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.469 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c6 canopy22_r6c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 10.583 1.5773  
+ 
+ 
+ 
+!libraries/radiance/bin/genbox canopy_ext_r1c1 canopy23_r1c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.122 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c2 canopy23_r1c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.236 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c3 canopy23_r1c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.35 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c4 canopy23_r1c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.464 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c5 canopy23_r1c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.578 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c6 canopy23_r1c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.692 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r2c1 canopy23_r2c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.122 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c2 canopy23_r2c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.236 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c3 canopy23_r2c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.35 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c4 canopy23_r2c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.464 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c5 canopy23_r2c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.578 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c6 canopy23_r2c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.692 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r3c1 canopy23_r3c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.122 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c2 canopy23_r3c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.236 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c3 canopy23_r3c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.35 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c4 canopy23_r3c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.464 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c5 canopy23_r3c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.578 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c6 canopy23_r3c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.692 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r4c1 canopy23_r4c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.122 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c2 canopy23_r4c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.236 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c3 canopy23_r4c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.35 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c4 canopy23_r4c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.464 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c5 canopy23_r4c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.578 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c6 canopy23_r4c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.692 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r5c1 canopy23_r5c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.122 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c2 canopy23_r5c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.236 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c3 canopy23_r5c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.35 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c4 canopy23_r5c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.464 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c5 canopy23_r5c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.578 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c6 canopy23_r5c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.692 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r6c1 canopy23_r6c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.122 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c2 canopy23_r6c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.236 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c3 canopy23_r6c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.35 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c4 canopy23_r6c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.464 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c5 canopy23_r6c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.578 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c6 canopy23_r6c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 11.692 1.5773  
+ 
+ 
+ 
+!libraries/radiance/bin/genbox canopy_ext_r1c1 canopy24_r1c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.023 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c2 canopy24_r1c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.137 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c3 canopy24_r1c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.251 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c4 canopy24_r1c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.365 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c5 canopy24_r1c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.479 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r1c6 canopy24_r1c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.593 1.179  
+!libraries/radiance/bin/genbox canopy_ext_r2c1 canopy24_r2c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.023 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c2 canopy24_r2c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.137 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c3 canopy24_r2c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.251 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c4 canopy24_r2c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.365 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c5 canopy24_r2c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.479 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r2c6 canopy24_r2c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.593 1.2586  
+!libraries/radiance/bin/genbox canopy_ext_r3c1 canopy24_r3c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.023 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c2 canopy24_r3c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.137 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c3 canopy24_r3c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.251 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c4 canopy24_r3c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.365 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c5 canopy24_r3c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.479 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r3c6 canopy24_r3c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.593 1.3383  
+!libraries/radiance/bin/genbox canopy_ext_r4c1 canopy24_r4c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.023 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c2 canopy24_r4c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.137 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c3 canopy24_r4c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.251 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c4 canopy24_r4c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.365 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c5 canopy24_r4c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.479 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r4c6 canopy24_r4c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.593 1.4180  
+!libraries/radiance/bin/genbox canopy_ext_r5c1 canopy24_r5c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.023 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c2 canopy24_r5c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.137 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c3 canopy24_r5c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.251 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c4 canopy24_r5c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.365 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c5 canopy24_r5c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.479 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r5c6 canopy24_r5c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.593 1.4976  
+!libraries/radiance/bin/genbox canopy_ext_r6c1 canopy24_r6c1 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.023 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c2 canopy24_r6c2 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.137 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c3 canopy24_r6c3 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.251 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c4 canopy24_r6c4 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.365 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c5 canopy24_r6c5 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.479 1.5773  
+!libraries/radiance/bin/genbox canopy_ext_r6c6 canopy24_r6c6 2.746 0.114 0.0797 | libraries/radiance/bin/xform -t  4.66 12.593 1.5773  
+ 
+ 
+ 
+# Canopy reflection 
+!libraries/radiance/bin/genbox canopy_ref canopyR1 2.7462 0.4842 0.4782 | libraries/radiance/bin/xform -t  0.1999 0.5579 1.1789 
+!libraries/radiance/bin/genbox canopy_ref canopyR2 2.7462 0.6842 0.4782 | libraries/radiance/bin/xform -t  0.1999 1.5109 1.1789  
+!libraries/radiance/bin/genbox canopy_ref canopyR3 2.7462 0.6842 0.4782 | libraries/radiance/bin/xform -t  0.1999 2.5119 1.1789  
+!libraries/radiance/bin/genbox canopy_ref canopyR4 2.7462 0.6842 0.4782 | libraries/radiance/bin/xform -t  0.1999 3.6178 1.1789  
+!libraries/radiance/bin/genbox canopy_ref canopyR5 2.7462 0.6842 0.4782 | libraries/radiance/bin/xform -t  0.1999 4.6669 1.1789  
+!libraries/radiance/bin/genbox canopy_ref canopyR6 2.7462 0.6842 0.4782 | libraries/radiance/bin/xform -t  0.1999 5.6929 1.1789  
+!libraries/radiance/bin/genbox canopy_ref canopyR7 2.7462 0.6842 0.4782 | libraries/radiance/bin/xform -t  0.1999 6.7799 1.1789  
+!libraries/radiance/bin/genbox canopy_ref canopyR8 2.7462 0.6842 0.4782 | libraries/radiance/bin/xform -t  0.1999 7.8899 1.1789  
